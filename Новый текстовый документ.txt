@@ -1,0 +1,9 @@
+print("введите стороны треугольника a b c")
+a = int(input("a= "))
+b = int(input("b= "))
+c = int(input("c= "))
+if b+c>=a and a+b>=c and a+c>=b :
+  print("Ты такие вещи не говори") 
+elif a == b or b == c or a == c :
+  print ('треугольник равнобедренный') 
+elif b+c>=a and a+b>=c and a+c>=b :
