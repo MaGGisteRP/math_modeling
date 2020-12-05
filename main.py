@@ -1,5 +1,6 @@
 from numpy import *
- 
+from main2 import *
+from main3 import *
 def l1(r):
     return 4/3 * pi * r**3
  
@@ -9,8 +10,7 @@ def l2(a,b,c):
 def l3(a,b,c,n):
     w = (a+b+c)/2
     e = 3/4*(sqrt(w * (w-a) * (w-b) * (w-c)))*OH
-    return 3/4*(sqrt(p * (w-a) * (w-b) * (w-c)))*OH
-    print (e)
+    return 3/4*(sqrt(w * (w-a) * (w-b) * (w-c)))*OH
  
 figyra = input("1)Шар; 2)Прямоугольный парралелепипед; 3)Объем тетраэдра: ")
 if figyra == '1':
