@@ -1,5 +1,4 @@
-#from ONE import *
-#import TWO02
-#from FOUR import *
-#from FIVE import *
-import AAAAAAAAAAA
+#import a
+#import b
+#import x
+import z
