@@ -1,2 +1,5 @@
-#from les_7_standart_obj import *
-from lec_7_non_standart_obj import *
+#from ONE import *
+#import TWO02
+#from FOUR import *
+#from FIVE import *
+import AAAAAAAAAAA
